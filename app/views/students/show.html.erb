@@ -1,0 +1,10 @@
+<h1>Students#show</h1>
+<p>Find me in app/views/students/show.html.erb</p>
+
+<h1><%= @student.to_s %></h1>
+
+<% if @student.active %>
+This student is active.
+<% else %>
+This student is inactive.
+<% end %>
